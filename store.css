@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+  }
+  body {
+    padding-top: 44px;
+    background-color: rgb(245, 245, 247);
+  }
+  
+  .background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .headermenu {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    background: white;
+    opacity: 0.7;
+    background: rgba(245, 245, 247, 0.8);
+    position: fixed;
+    top: 0;
+  }
+  
+  .utils {
+    width: 14px;
+    height: 44px;
+  }
+  
+  .header2 {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .header2text {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .gradientheader {
+    height: auto;
+    width: 100%;
+  }
+  
+  .gradient {
+    background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .store {
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .storetexts {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .bigfont {
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52.01px;
+  }
+  
+  .graytext {
+    color: #6e6e73;
+  }
+  
+  .helpcenter {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .special {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .anchorblue {
+    color: #06c;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+  }
+  
+  .helptexts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .boldtext {
+    color: #1d1d1f;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  
+  .products {
+    display: flex;
+    gap: 16px;
+    padding: 0 140px;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+  }
+  
+  .image-item {
+    height: 78px;
+    align-self: stretch;
+  }
+  
+  .div-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-self: stretch;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section-text {
+    display: flex;
+    gap: 4px;
+    padding-left: 140px;
+  }
+  
+  .the-latest {
+    font-family: Inter;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .sliding-container {
+    display: flex;
+    column-gap: 20px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    height: 500px;
+    width: 100vw;
+    padding: 0px 140px;
+  }
+  
+  .latest {
+    width: 400px;
+    display: flex;
+    border-radius: 18px;
+    flex-direction: column;
+    padding: 30px;
+    gap: 12px;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 12px 0px;
+    cursor: pointer;
+    scroll-snap-align: center;
+  }
+  
+  .imac {
+    background-image: url(./storeimages/1.jpeg);
+  }
+  
+  .ip-16pro {
+    background-image: url(./storeimages/2.jpeg);
+  }
+  
+  .ipad {
+    background-image: url(./storeimages/3.jpeg);
+  }
+  
+  .apple-watch {
+    background-image: url(./storeimages/4.jpeg);
+  }
+  
+  .airpods {
+    background-image: url(./storeimages/5.jpeg);
+  }
+  
+  .ip-16 {
+    background-image: url(./storeimages/6.jpeg);
+  }
+  
+  .watch-ultra {
+    background-image: url(./storeimages/7.jpeg);
+  }
+  
+  .vision {
+    background-image: url(./storeimages/8.jpeg);
+  }
+  
+  .macbook-air {
+    background-image: url(./storeimages/9.jpeg);
+  }
+  
+  .ipad-pro {
+    background-image: url(./storeimages/10.jpeg);
+  }
+  
+  .ipad-air {
+    background-image: url(./storeimages/11.jpeg);
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .product-name {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .product-description {
+    font-size: 18px;
+  }
+  
+  .engrave {
+    background-image: url(./storeimages/engrave.png);
+  }
+  
+  .engrave > .product-name {
+    max-width: 197px;
+    margin-top: 23px;
+  }
+  
+  .personal {
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 313px;
+    padding: 71px 21px 0px 21px;
+  }
+  
+  .small-image {
+    height: 230px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .color-div {
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+  }
+  
+  .color {
+    cursor: pointer;
+  }
+  
+  .text {
+    width: 257px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .free {
+    margin-bottom: 8px;
+    color: #b64400;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  
+  .product-price-2 {
+    height: 40px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .price {
+    font-size: 14px;
+    font-weight: 250;
+  }
+  
+  .gap {
+    gap: 58px;
+  }
+  

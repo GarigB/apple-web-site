@@ -1,0 +1,815 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    font-family: "Inter", serif;
+  }
+  
+  body {
+    padding-top: 44px;
+    width: 100vw;
+  }
+  
+  .background {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .headermenu {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    background: white;
+    opacity: 0.7;
+    background: rgba(245, 245, 247, 0.8);
+    position: fixed;
+    top: 0;
+  }
+  
+  .images-div {
+    display: flex;
+    height: 44px;
+    gap: 24px;
+  }
+  
+  .utils {
+    width: 14px;
+    height: 44px;
+  }
+  
+  .button-menu {
+    display: none;
+  }
+  
+  .header2 {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+  }
+  
+  .header2text {
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .pro16back {
+    background-image: url(./images/16pro.png);
+    height: 692px;
+    width: 100vw;
+    margin-bottom: 12px;
+    padding-top: 55px;
+  }
+  
+  .ip16background {
+    background-image: url(./images/ip16.png);
+    height: 692px;
+    width: 100vw;
+    padding-top: 55px;
+    margin-bottom: 12px;
+  }
+  
+  .fuldiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .heading1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.28px;
+  }
+  
+  .hello {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  
+  .learnbuy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .learn {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+    border-radius: 999px;
+    background: #0071e3;
+    color: white;
+  }
+  
+  .learn:hover {
+    cursor: pointer;
+  }
+  
+  .buy {
+    text-align: center;
+    color: #2997ff;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+    border-radius: 999px;
+    border: 1px solid #2997ff;
+  }
+  
+  .buy:hover {
+    cursor: pointer;
+  }
+  
+  .padding {
+    padding: 12px 20px;
+  }
+  
+  .giftbackground {
+    background-image: url(./images/gift.png);
+    height: 692px;
+    width: 100vw;
+    padding-bottom: 82px;
+    margin-bottom: 12px;
+  }
+  
+  .gift {
+    color: black;
+  }
+  
+  .giftdiv {
+    height: 100%;
+    justify-content: flex-end;
+  }
+  
+  .griddivs {
+    display: grid;
+    margin: 12px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    height: 1764px;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ipadback {
+    background-image: url(./images/ipad.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 53px;
+  }
+  
+  .ipadair {
+    height: 33px;
+    width: 100%;
+  }
+  
+  .heading3 {
+    color: #1d1d1f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .gridtexts {
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gridfulldiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .paddingtop {
+    padding-top: 58px;
+  }
+  
+  .paddingbottom {
+    padding-top: 401px;
+  }
+  
+  .airpods {
+    background-image: url(./images/airpods.png);
+  }
+  
+  .heading2white {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+  }
+  
+  .heading3white {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .gradient {
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    background: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 33.33%,
+      #f2416b 66.67%,
+      #f55600 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .applewatch {
+    background-image: url(./images/watch.png);
+  }
+  
+  .applelogowatch {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .logo2 {
+    width: 26.353px;
+    height: 32px;
+  }
+  
+  .watch {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .series {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+  }
+  
+  .gridtextsapple {
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .heading2 {
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+  }
+  
+  .macbook {
+    background-image: url(./images/macbook.png);
+    padding-top: 48px;
+  }
+  
+  .tradein {
+    background-image: url(./images/trade.png);
+  }
+  
+  .tradeintext {
+    text-align: center;
+  }
+  
+  .card {
+    background-image: url(./images/card.png);
+  }
+  
+  .marginbottom {
+    margin-bottom: 12px;
+  }
+  
+  .horizontalscroll {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    gap: 12px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .movie {
+    height: 668px;
+    width: 1250px;
+    position: relative;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+  }
+  
+  .napoleon {
+    background-image: url(./images/napoleon.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .badmonkey {
+    background-image: url(./images/bad-monkey.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .instigators {
+    background-image: url(./images/instigators.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .k-pop-idols {
+    background-image: url(./images/k-pop-idols.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .season-pass {
+    background-image: url(./images/season-pass.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .presumed-innocent {
+    background-image: url(./images/presumed-innocent.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .pachinko {
+    background-image: url(./images/pachinko.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .baseball {
+    background-image: url(./images/baseball.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .lady-in-the-lake {
+    background-image: url(./images/lady-in-the-lake.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .morning-show {
+    background-image: url(./images/morning-show.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .movietexts {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 566px;
+    padding-left: 70px;
+  }
+  
+  .stream {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 999px;
+    color: #000;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.374px;
+  }
+  
+  .stream:hover {
+    cursor: pointer;
+  }
+  
+  .genre {
+    color: #fff;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  
+  .carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    position: relative;
+  }
+  
+  .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: rgba(180, 173, 173, 0.7);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot:hover {
+    background-color: rgb(121, 121, 121);
+  }
+  
+  .sliding {
+    width: 100%;
+    overflow: hidden;
+    height: 236px;
+    padding-top: 12px;
+  }
+  
+  .slider-container {
+    display: flex;
+    position: relative;
+    width: max-content;
+    min-width: 200%;
+    animation: slide 200s linear infinite;
+    gap: 12px;
+  }
+  
+  .slider-content {
+    height: 236px;
+    width: 417px;
+    gap: 15px;
+    font-weight: bold;
+    font-family: Inter;
+    font-style: normal;
+    flex-shrink: 0;
+  }
+  
+  .slider-1 {
+    color: white;
+    background-color: rgb(20, 40, 56);
+    display: flex;
+    align-items: center;
+  }
+  
+  .small-image {
+    width: 196px;
+    height: 196px;
+    overflow: hidden;
+    margin-left: 15px;
+    border-radius: 8px;
+  }
+  
+  .slider-2 {
+    background-color: #eae6e1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+  
+  .football {
+    background-image: url(./images/3.jpg);
+  }
+  
+  .background {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .full-image-text {
+    margin: 0px 0px 23px 15px;
+  }
+  
+  .fitness {
+    background-image: url(./images/4.jpg);
+  }
+  
+  .nba {
+    background-image: url(./images/5.jpg);
+  }
+  
+  .kyle {
+    background-image: url(./images/6.jpg);
+  }
+  
+  .run {
+    background-image: url(./images/7.jpg);
+  }
+  
+  .slider-3 {
+    color: white;
+    background-color: rgb(64, 13, 14);
+    display: flex;
+    align-items: center;
+  }
+  
+  .kitty {
+    background-image: url(./images/9.jpg);
+  }
+  
+  .slider-4 {
+    color: white;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider-hover {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .slider-button {
+    opacity: 0;
+    border: none;
+    color: black;
+    margin-top: 20px;
+    padding: 7px 15px;
+    border-radius: 999px;
+    background-color: white;
+  }
+  
+  .slider-container:hover .slider-content {
+    filter: grayscale(1);
+  }
+  
+  .slider-container:hover {
+    animation-play-state: paused;
+  }
+  
+  .slider-container .slider-content:hover {
+    filter: grayscale(0);
+  }
+  
+  .slider-content:hover .slider-hover {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+  
+  .slider-content:hover .slider-button {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+  }
+  
+  .slider-hover:hover {
+    cursor: pointer;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @media screen and (max-width: 1025px) {
+    .headermenu {
+      height: 48px;
+      gap: 0;
+      justify-content: space-between;
+    }
+  
+    .headermenu > p {
+      display: none;
+    }
+  
+    .headermenu > a {
+      display: none;
+    }
+    .button-menu {
+      display: block;
+      width: 48px;
+    }
+    .images-div {
+      display: flex;
+      margin-top: 2px;
+      height: 48px;
+      gap: 0px;
+    }
+    .utils {
+      height: 48px;
+      width: 48px;
+    }
+    .apple-logo {
+      height: 48px;
+      width: 48px;
+    }
+    .pro16back {
+      background-image: url(./images/back-pro-tablet.png);
+    }
+  
+    .fuldiv {
+      gap: 0;
+    }
+  
+    .heading1 {
+      font-size: 42px;
+    }
+  
+    .texts {
+      gap: 0;
+    }
+  
+    .hello {
+      margin-top: 4px;
+      margin-bottom: 16px;
+    }
+  
+    .ip16background {
+      background-image: url(./images/ip-16-ipad.png);
+    }
+  
+    .movie {
+      width: 689px;
+      height: 368px;
+    }
+  
+    .stream {
+      font-size: 14px;
+    }
+  
+    .movietexts {
+      padding-top: 305px;
+      padding-left: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .griddivs {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      height: 3100px;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .pro16back {
+      background-image: url(./images/ip-16-pro-phone.png);
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+      padding: 0;
+    }
+  
+    .pro-16-text {
+      margin-top: 350px;
+    }
+  
+    .heading1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  
+    .hello {
+      line-height: 24px;
+      line-height: 29.5px;
+    }
+  
+    .learn {
+      padding: 8px 16px;
+      font-size: 13.3333px;
+    }
+  
+    .buy {
+      padding: 8px 16px;
+      font-size: 13.3333px;
+    }
+  
+    .ip16background {
+      background-image: url(./images/ip-16-phone.png);
+      height: 500px;
+      background-position: center;
+      background-size: cover;
+    }
+  
+    .giftbackground {
+      height: 500px;
+    }
+  
+    .paddingbottom {
+      padding-top: 350px;
+    }
+  
+    .movie {
+      width: 274px;
+      height: 495px;
+    }
+  
+    .horizontalscroll {
+      gap: 16px;
+    }
+  
+    .slider-hover {
+      height: 134px;
+    }
+  
+    .slider-container {
+      gap: 6px;
+    }
+  
+    .sliding {
+      height: 134px;
+    }
+  
+    .slider-content {
+      width: 238px;
+      height: 134px;
+    }
+  
+    .small-image {
+      width: 114px;
+      height: 114px;
+    }
+  
+    .slider-text {
+      font-size: 12px;
+    }
+  
+    .full-image-text {
+      font-size: 12px;
+    }
+  
+    .movietexts {
+      display: none;
+    }
+  }
+  
